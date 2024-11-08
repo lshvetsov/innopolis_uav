@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class KalmanFilter:
     def __init__(self, state_matrix, control_matrix, observation_matrix, process_noise, measurement_noise):
         self.state_matrix = state_matrix

@@ -39,6 +39,5 @@ class TestMissionPlanner(unittest.TestCase):
             mock_logger.error.assert_called_with('Не удалось достичь точки 2')
 
 
-# Запуск тестов
 if __name__ == '__main__':
     unittest.main()
